@@ -36,7 +36,7 @@ app.use(mountPath, api);
 
 // Parse Server plays nicely with the rest of your web routes
 app.get('/', function(req, res) {
-  res.status(200).send('Make sure to star the parse-server repo on GitHub!');
+  res.status(200).send('Doctor Finder Server is working correctly, check out our site <a href="http://doctorfinderapp.com">doctorfinderapp.com</a>');
 });
 
 // There will be a test page available on the /test path of your server url
